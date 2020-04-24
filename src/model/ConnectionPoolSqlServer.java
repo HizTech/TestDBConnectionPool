@@ -10,8 +10,6 @@ import org.apache.commons.dbcp2.BasicDataSource;
  */
 public class ConnectionPoolSqlServer {
     
-    String connectionUrl = "jdbc:sqlserver://DESKTOP-733KL2A\\SQLEXPRESS:1433;databaseName=paises;user=sa;password=123";
-    
     private final String SERVER = "DESKTOP-733KL2A\\SQLEXPRESS"; 
     private final String DB="paises";
     private final String URL="jdbc:sqlserver://"+SERVER+":1433;database="+DB;
